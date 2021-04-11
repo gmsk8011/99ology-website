@@ -1,0 +1,92 @@
+/*h1 {
+  	font-family: "Audiowide", sans-serif;
+  	font-size: 40px;
+  	pacity: 0.9;
+}*/
+body {
+	background-color: #ffa1bd;
+}
+
+#header-nav {
+	background-color: #fc0339;
+	border: 0;
+	border-radius: 0px;
+	height: 100px;
+	padding: 8px; 
+	/*margin: 0;*/
+}
+
+#logo-img {
+	background: url('logo.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 5px 15px 10px 0px;
+	/*border: 10px grey;	*/
+	/*padding: 3px;*/
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-size: 2em;
+  /*font-weight: bold;*/
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75	;
+  text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+	
+
+	
+/*#thank {
+	text-align: center;
+	font-size: 27px;
+	font-family: 'Comic Neue', cursive;
+}
+
+#foot {
+	text-align: center;
+}
+
+footer ul {
+	font-size: 17px;
+}*/
+
+/*a:link, a:visited {
+	text-decoration: none;
+	background-image: linear-gradient(to right, pink , orange, skyblue);
+	border: 1px solid grey;
+	border-radius: 25px;
+	color: black;
+	display: block;
+	padding: 4px; 
+	width: 270px;
+	height: 30px;
+	text-align: center;
+	margin-bottom: 4px;
+	font-size: 20px;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	background-color: orange;
+	border: 2.5px solid black;
+	/*text-shadow: 2px 2px grey;*/*/
+}

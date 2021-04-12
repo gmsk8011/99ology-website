@@ -44,10 +44,10 @@ body {
 }	
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #000000;
   text-align: center;
 }
 #nav-list a:hover {

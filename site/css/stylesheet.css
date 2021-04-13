@@ -103,10 +103,24 @@ body {
     margin: 5px 5px 5px 0;
   }*/
   /* End Header */
+  .jumbotron {
+    background: url('../images/nasa-992.jpg') no-repeat;
+    height: 661px;
+    box-shadow: 0 0 40px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    margin-top: 15px;
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+	.jumbotron {
+    background: url('../images/marvin-768.jpg') no-repeat;
+    height: 512px;
+    box-shadow: 0 0 40px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    margin-top: 15px;
+  }
 
 }
 

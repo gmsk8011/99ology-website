@@ -78,7 +78,7 @@ body {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -40px;
+  /*margin-top: -40px;*/
 }
 
 /*div.navbar-brand {

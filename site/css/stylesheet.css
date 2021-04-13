@@ -83,6 +83,13 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+	.container .jumbotron {
+    background: url('../images/marvin-1200.jpg') no-repeat;
+    height: 800px;
+    box-shadow: 0 0 40px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    margin-top: 15px;
+  }
 
 }
 

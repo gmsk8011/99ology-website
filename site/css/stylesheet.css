@@ -6,23 +6,25 @@ body {
 	background-color: #fc0339;
 	border: 0;
 	border-radius: 0px;
-	/*height: 80px;*/
+	height: auto;
 	padding: 8px; 
 	/*margin: 0;*/
 	text-align: left;
 }
 
-/*#logo-img {
+#logo-img {
 	background: url('logo.png') no-repeat;
-	width: 150px;
-	height: 150px;
+	width: 75px;
+	height: 75px;
 	margin: 5px 15px 10px 0px;
-	/*border: 10px grey;	*/
+	/*border: 10px grey;	
 	/*padding: 3px;*/
-}*/
+}
 
 .navbar-brand {
   padding-top: 25px;
+  /*padding-left: 0;*/
+  /*right: 100px;*/
 }
 
 .navbar-brand h1 { /* company name */
@@ -76,7 +78,7 @@ body {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 	

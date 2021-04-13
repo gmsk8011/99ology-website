@@ -3,7 +3,7 @@ body {
 }
 
 #header-nav {
-	background-color: #fc0339;
+	background-color: #34ebb7;
 	border: 0;
 	border-radius: 0px;
 	height: auto;
@@ -117,7 +117,7 @@ body {
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
-  }
+  } 
 }
 
 

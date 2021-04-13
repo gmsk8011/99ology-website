@@ -29,7 +29,7 @@ body {
 .navbar-brand h1 { /* company name */
   font-family: 'Montserrat', sans-serif;
   color: #000000;
-  font-size: 2em;
+  font-size: 2.1em;
   text-shadow: 1px 1px 1px #222;
   /*margin-top: 0;*/
   /*margin-bottom: 0;*/
@@ -81,13 +81,16 @@ body {
   margin-top: -40px;
 }
 
+.container .jumbotron {
+	box-shadow: 0 0 40px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	.container .jumbotron {
     background: url('../images/marvin-1200.jpg') no-repeat;
     height: 800px;
-    box-shadow: 0 0 40px #3F0C1F;
-    border: 2px solid #3F0C1F;
     margin-top: 15px;
   }
 
@@ -103,22 +106,18 @@ body {
     margin: 5px 5px 5px 0;
   }*/
   /* End Header */
-  .jumbotron {
+  .container .jumbotron {
     background: url('../images/nasa-992.jpg') no-repeat;
     height: 661px;
-    box-shadow: 0 0 40px #3F0C1F;
-    border: 2px solid #3F0C1F;
     margin-top: 15px;
   }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.jumbotron {
+	.container .jumbotron {
     background: url('../images/marvin-768.jpg') no-repeat;
     height: 512px;
-    box-shadow: 0 0 40px #3F0C1F;
-    border: 2px solid #3F0C1F;
     margin-top: 15px;
   }
 
@@ -142,8 +141,6 @@ body {
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
-    box-shadow: 0 0 40px #3F0C1F;
-    border: 2px solid #3F0C1F;
   }
 }
 

@@ -170,9 +170,13 @@ body {
   margin-bottom: 35px;
 }
 
+
 a {
   color: white; 
 }
+
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
 a:hover, a:hover {
     text-decoration: none;

@@ -1,7 +1,7 @@
 body {
 	/*background-color: #ffa1bd;*/
-	 background: rgb(244,0,199);
-background: linear-gradient(221deg, rgba(244,0,199,1) 0%, rgba(251,255,3,1) 61%, rgba(0,14,231,1) 100%); 
+	background: rgb(244,0,199);
+	background: linear-gradient(221deg, rgba(244,0,199,1) 0%, rgba(251,255,3,1) 61%, rgba(0,14,231,1) 100%); 
 }
 
 #header-nav {
@@ -12,6 +12,7 @@ background: linear-gradient(221deg, rgba(244,0,199,1) 0%, rgba(251,255,3,1) 61%,
 	padding: 8px; 
 	/*margin: 0;*/
 	text-align: left;
+	box-shadow: 1px 1px 10px grey;
 }
 
 #logo-img {
@@ -155,12 +156,54 @@ background: linear-gradient(221deg, rgba(244,0,199,1) 0%, rgba(251,255,3,1) 61%,
   opacity: .8;
 }
 
+/*Footer*/
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+  text-decoration: none;
+}
+
+a {
+  color: white; 
+}
+
+a:hover, a:hover {
+    text-decoration: none;
+}
+
+#footer-menu {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  list-style: none;
+  color: red;
+}
+
+#address {
+  text-align: center;
+}
+
+div.text-center {
+  color: white;
+}
+
+section#testimonials {
+  position: relative;
+  left: 350px;
+}
+
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	.container .jumbotron {
     background: url('../images/marvin-768.jpg') no-repeat;
     height: 512px;
     margin-top: 15px;
+  }
+  #offer-tile {
+    width: 375px;
+    margin: 0 auto 15px;
   }
 
 }

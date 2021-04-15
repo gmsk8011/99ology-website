@@ -166,6 +166,10 @@ body {
   text-decoration: none;
 }
 
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
 a {
   color: white; 
 }
@@ -187,6 +191,7 @@ a:hover, a:hover {
 
 div.text-center {
   color: white;
+  text-align: center;
 }
 
 section#testimonials {

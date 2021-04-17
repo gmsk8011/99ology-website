@@ -5,12 +5,11 @@ body {
 }
 
 #header-nav {
-	background-color: #34ebb7;
+	background-color: #2ae6b0;
 	border: 0;
 	border-radius: 0px;
 	height: auto;
 	padding: 8px; 
-	/*margin: 0;*/
 	text-align: left;
 	box-shadow: 1px 1px 10px grey;
 }

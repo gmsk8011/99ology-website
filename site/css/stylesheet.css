@@ -102,12 +102,13 @@ body {
 
 }
 .content .main-content {
-  width: 70%;
+  width: 100%;
   border: 1px solid blue;
 }
 .text-center {
   text-align: left;
   font-family: 'Dela Gothic One', cursive; 
+  margin-bottom: 30px;
 }
 
 /********** Large devices only **********/

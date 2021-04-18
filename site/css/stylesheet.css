@@ -188,6 +188,10 @@ a:hover, a:hover {
   color: red;
 }
 
+#footer-menu li {
+  margin-right: 45px;
+}
+
 #address {
   text-align: center;
 }

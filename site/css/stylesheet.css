@@ -125,6 +125,10 @@ h2{
   float: left;
 }
 
+.content .main-content p {
+  margin: 20px;
+}
+
 .text-center {
   text-align: left;
   font-family: 'Dela Gothic One', cursive; 

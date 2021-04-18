@@ -152,7 +152,7 @@ body {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  opacity: .8;
+  opacity: .7;
 }
 
 /*Footer*/
@@ -190,6 +190,11 @@ a:hover, a:hover {
 
 #footer-menu li {
   margin-right: 45px;
+} 
+
+li {
+    display: list-item;
+    text-align: center;
 }
 
 #address {
@@ -200,6 +205,10 @@ div.text-center {
   color: white;
   text-align: center;
 }
+
+.panel-footer section hr {
+    width: 50%;
+  }
 
 /*section#testimonials {
   position: relative;

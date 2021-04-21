@@ -202,6 +202,11 @@ h2{
   opacity: .7;
 }
 
+/*POSTS*/
+.posts section {
+  margin-bottom: 20px;
+}
+
 /*Footer*/
 .panel-footer {
   margin-top: 30px;
@@ -296,13 +301,16 @@ div.text-center {
     padding: 0;
   }
 
+  .posts {
+    margin: 20px;
+  }
+
   #release-tile, #news-tile, #offer-tile {
   	width: 375px;
   	margin: 0 auto 15px;
   }
 
 }
-
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;

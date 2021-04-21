@@ -135,6 +135,78 @@ h2{
   margin: 20px;
 }
 
+/*POSTS*/
+.posts section {
+  margin-bottom: 20px;
+}
+.posts-description {
+  color: solid black;
+  font-size: 1.1em;
+  text-align: justify;
+  font-family: Montserrat;
+}
+.posts-img {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+
+/*Footer*/
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+  text-decoration: none;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+
+.panel-footer a {
+  color: white; 
+}
+
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+a:hover, a:hover {
+    text-decoration: none;
+}
+
+#footer-menu {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  list-style: none;
+  color: red;
+}
+
+#footer-menu li {
+  margin-right: 45px;
+} 
+
+li {
+    display: list-item;
+    text-align: center;
+}
+
+#address {
+  text-align: center;
+}
+
+div.text-center {
+  color: white;
+  text-align: center;
+}
+
+.panel-footer section hr {
+    width: 50%;
+  }
+
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	.container .jumbotron {
@@ -202,70 +274,8 @@ h2{
   opacity: .7;
 }
 
-/*POSTS*/
-.posts section {
-  margin-bottom: 20px;
-}
-
-/*Footer*/
-.panel-footer {
-  margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border-top: 0;
-  text-decoration: none;
-}
-
-.panel-footer div.row {
-  margin-bottom: 35px;
-}
 
 
-a {
-  color: black; 
-}
-
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
-a:hover, a:hover {
-    text-decoration: none;
-}
-
-#footer-menu {
-  text-transform: uppercase;
-  font-family: Montserrat;
-  list-style: none;
-  color: red;
-}
-
-#footer-menu li {
-  margin-right: 45px;
-} 
-
-li {
-    display: list-item;
-    text-align: center;
-}
-
-#address {
-  text-align: center;
-}
-
-div.text-center {
-  color: white;
-  text-align: center;
-}
-
-.panel-footer section hr {
-    width: 50%;
-  }
-
-/*section#testimonials {
-  position: relative;
-  left: 350px;
-}*/
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {

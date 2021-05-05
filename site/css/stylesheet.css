@@ -83,10 +83,12 @@ body {
   margin-top: -40px;
 }
 
-.container .jumbotron {
+.container .jumbotron .carousel-inner{
 	box-shadow: 0 0 40px #3F0C1F;
     border: 2px solid #3F0C1F;
 }
+
+
 
 /*Latest updates*/
 /*#latest-updates-title {

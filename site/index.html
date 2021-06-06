@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>99ology</title>
     <link rel="icon" href="css/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/stylesheet.css">
   </head>
 <body>
 
 	<header>
-		<nav id="header-nav" class="navbar navbar-default">
+		<!-- <nav id="header-nav" class="navbar navbar-default">
 			<div class="container">
 
 				<div class="navbar-header">
@@ -30,7 +30,7 @@
             		<a href="index.html"><h1>99ology</h1></a>
           		</div>
           
-          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" class="pull-right">
             		<span class="sr-only">Toggle navigation</span>
             		<span class="icon-bar"></span>
             		<span class="icon-bar"></span>
@@ -42,17 +42,18 @@
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
               <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-phone"></span><br class="hidden-xs"> Mobile</a>
+                <span class="material-icons">phone</span><br class="hidden-xs"> Mobile</a>
             </li>     
 
             <li>
               <a href="#">
-                <!-- <i class="fa fa-laptop fa-2x" aria-hidden="true"></i> --><span class="material-icons md-48">laptop</span><br class="hidden-xs"> Laptop</a>
+                <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
+                <span class="material-icons md-48">laptop</span><br class="hidden-xs"> Laptop</a>
             </li>
 
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+                <span class="material-icons"></span><br class="hidden-xs"> About</a>
             </li>
             <li id="phone" class="hidden-xs">
               <a href="tel:+91 81xxxxxxxx">
@@ -61,7 +62,38 @@
           </ul>
         </div>
 			</div>			
-		</nav>
+		</nav> -->
+    <!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-light">
+          <a href="index.html" class="pull-left d-none d-sm-block">
+                  <div id="logo-img" alt="Logo image"></div>
+                </a>
+  <a class="navbar-brand" href="#"><h1>99ology</h1></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a href="menu-categories.html">
+                <span class="material-icons">phone</span><br> Mobile</a>
+      </li>
+      <li class="nav-item">
+        <a href="#">
+                <span class="material-icons">laptop</span><br> Laptop</a>
+      </li>
+      <li class="nav-item">
+        <a href="tel:+91 81xxxxxxxx">
+                <span class="material-icons">info</span><br> About</a>
+      </li>
+      <li class="nav-item d-none d-sm-block">
+        <a href="tel:+91 81xxxxxxxx">
+                <span>+91 81xxxxxxx</span></a><div>Contact us</div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 	</header>
 
   
@@ -139,12 +171,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div> -->
-
-
-
-    <div class="jumbotron">
-      <img src="images/uriel-768.jpg" alt="Main image" class="img-responsive visible-xs">
-    </div>
 
     <div id="home-tiles" class="row">
       <div class="col-md-4 col-sm-6 col-xs-12">
@@ -226,4 +252,5 @@
 	</footer> -->
 
 </body>
+<script>autoplay();</script> 
 </html>

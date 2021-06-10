@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   /*background-color: #ffa1bd;*/
   background: rgb(244,0,199);
@@ -81,6 +84,10 @@ body {
 }
 #nav-list a span {
   font-size: 1.8em;
+}
+
+.nav-item a{
+  color: black;
 }
 
 #phone {
@@ -177,19 +184,90 @@ h3 a {
   color: black;
 }
 
+/*Animation*/
+*{
+margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+} 
+
+.center{ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.main{ 
+  height: 70vh;
+}
+
+.social{
+  /*background-color: red;*/
+  /*height: 200px;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box{ 
+  width: 120px; 
+  height: 130px; 
+  position: relative; 
+  margin: 0 20px;
+}
+.icon-box, .inner-box{ 
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  background: #c32aa3; 
+  color: white; 
+  border-radius: 1Opx; 
+  cursor: pointer; 
+  transition: all .4s;
+}
+
+.ib-t{
+ background: #1dalf2; 
+} 
+.ib-g{
+ background: #333; 
+} 
+.ib-w{
+ background: #25d366;
+} 
+.box:hover .icon-box{
+ transform: translateY(-30px);
+} 
+.inner-box{
+  background: #fffeff;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: -1;
+  color: rgb(41, 41, 41);
+  box-shadow: 0 lOpx 20px rgba(0, 0, 0, 0.082); 
+}
+.inner-box p{
+  font-family: 'Berkshire Swash', cursive; 
+  font-size: 1.2rem; 
+  margin-bottom: 5px; 
+}
+
 
 /*Footer*/
 .panel-footer {
   margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 30px;
+  padding: 20px 20px 10px 20px;
   background-color: #222;
   border-top: 0;
   text-decoration: none;
+  height: 225px;
 }
 
-.panel-footer div.row {
-  margin-bottom: 35px;
+.panel-footer .row {
+  /*margin-bottom: 20px;*/
+  height: 160px;
+
+}
+
+.panel-footer .container{
+  height: 160px;
 }
 
 
@@ -356,12 +434,16 @@ div.text-center {
   #latest-updates-title {
     text-align: center;
   }
-
 }
 
   /*FOOTER*/
+  .panel-footer {
+    height: 291px;
+    padding: 10px 20px 0px 20px;
+  }
+
   .panel-footer section {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
   }
 

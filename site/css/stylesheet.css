@@ -1,18 +1,19 @@
 body {
-	/*background-color: #ffa1bd;*/
-	background: rgb(244,0,199);
-	background: linear-gradient(221deg, rgba(244,0,199,1) 0%, rgba(251,255,3,1) 61%, rgba(0,14,231,1) 100%); 
+  /*background-color: #ffa1bd;*/
+  background: rgb(244,0,199);
+  background: linear-gradient(221deg, rgba(244,0,199,1) 0%, rgba(251,255,3,1) 61%, rgba(0,14,231,1) 100%); 
 }
 
 .navbar {
-	background-color: #2ae6b0;
-	border: 0;
-	border-radius: 0px;
-	height: auto;
-	padding: 20px; 
+  background-color: #2ae6b0;
+  border: 0;
+  border-radius: 0px;
+  height: auto;
+  /*padding: 20px; */
+  padding: 2px 20px 2px 20px;
   margin-bottom: 40px;
-	text-align: left;
-	box-shadow: 1px 1px 10px #747474;
+  text-align: left;
+  box-shadow: 1px 1px 10px #747474;
 }
 
 .nav-item{
@@ -33,12 +34,12 @@ body {
 }*/
 
 #logo-img {
-	background: url('logo.png') no-repeat;
-	width: 75px;
-	height: 75px;
-	margin: 5px 20px 10px 0px;
-	/*border: 10px grey;	
-	/*padding: 3px;*/
+  background: url('logo.png') no-repeat;
+  width: 75px;
+  height: 75px;
+  margin: 5px 20px 10px 0px;
+  /*border: 10px grey;  
+  /*padding: 3px;*/
 }
 
 .navbar-brand {  
@@ -49,14 +50,15 @@ body {
 .navbar-brand h1 { /* company name */
   font-family: 'Montserrat', sans-serif;
   color: #000000;
-  font-size: 2.1em;
+  /*font-size: 2.1em;*/
+  font-size: 1.5em;
   text-shadow: 1px 1px 1px #222;
   /*margin-top: 0;*/
   /*margin-bottom: 0;*/
   margin: 0;
   margin-top: -20px;
   padding-top: 11px;
-  line-height: .75	;
+  line-height: .75  ;
   text-decoration: none;
   text-align: center;
   opacity: 0.8;
@@ -64,7 +66,7 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
   font-size: 1.06em;
-}	
+} 
 
 #nav-list {
   margin-top: 0px;
@@ -103,7 +105,7 @@ body {
 }
 
 .container .jumbotron .carousel-inner .carousel-item{
-	box-shadow: 0 0 40px #3F0C1F;
+  box-shadow: 0 0 40px #3F0C1F;
     border: 2px solid #3F0C1F;
 }
 
@@ -218,6 +220,11 @@ li {
     text-align: center;
 }
 
+#cpyright{
+  width: 100%;
+  padding-right: 45px;
+}
+
 #address {
   text-align: center;
 }
@@ -234,7 +241,7 @@ div.text-center {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-	.container .jumbotron {
+  .container .jumbotron {
     background: url('../images/marvin-1200.jpg') no-repeat;
     height: 800px;
     margin-top: 15px;
@@ -304,7 +311,7 @@ div.text-center {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.container .jumbotron {
+  .container .jumbotron {
     background: url('../images/marvin-768.jpg') no-repeat;
     height: 512px;
     margin-top: 15px;
@@ -342,8 +349,8 @@ div.text-center {
   }
 
   #release-tile, #news-tile, #offer-tile {
-  	width: 375px;
-  	margin: 0 auto 15px;
+    width: 375px;
+    margin: 0 auto 15px;
   }
 
   #latest-updates-title {
@@ -369,39 +376,39 @@ div.text-center {
   margin-top: -11px;
 }*/
  
-	
+  
 /*#thank {
-	text-align: center;
-	font-size: 27px;
-	font-family: 'Comic Neue', cursive;
+  text-align: center;
+  font-size: 27px;
+  font-family: 'Comic Neue', cursive;
 }
 
 #foot {
-	text-align: center;
+  text-align: center;
 }
 
 footer ul {
-	font-size: 17px;
+  font-size: 17px;
 }*/
 
 /*a:link, a:visited {
-	text-decoration: none;
-	background-image: linear-gradient(to right, pink , orange, skyblue);
-	border: 1px solid grey;
-	border-radius: 25px;
-	color: black;
-	display: block;
-	padding: 4px; 
-	width: 270px;
-	height: 30px;
-	text-align: center;
-	margin-bottom: 4px;
-	font-size: 20px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, pink , orange, skyblue);
+  border: 1px solid grey;
+  border-radius: 25px;
+  color: black;
+  display: block;
+  padding: 4px; 
+  width: 270px;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 4px;
+  font-size: 20px;
 }
 
 a:hover, a:active {
-	text-decoration: none;
-	background-color: orange;
-	border: 2.5px solid black;
-	/*text-shadow: 2px 2px grey;
+  text-decoration: none;
+  background-color: orange;
+  border: 2.5px solid black;
+  /*text-shadow: 2px 2px grey;
 }*/

@@ -203,6 +203,11 @@ box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
+#link{
+  text-decoration: none;
+  color: white;
+}
+
 .box{ 
   width: 120px; 
   height: 130px; 

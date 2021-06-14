@@ -1,10 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+}
+
+.mainn {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxx {
+  width: 150px;
+  height: 200px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.197);
+  background: white;
+  overflow: hidden;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.boxx div {
+  width: 150px;
+  height: 200px;
+}
+
+.boxx div img {
+  width: 100%;
+  height: 100%;
+  transform-origin: top;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.197);
+  transition: transform .4s;
+}
+
+.boxx:hover div img {
+  transform: scale(0.8) translateY(10px);
+}
+
+.boxx p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-family: cursive;
+  transform: translate(-50%, 20px);
+  transition: all .4s;
+}
+
+.boxx:hover p {
+  transition-delay: .2s;
+  transform: translate(-50%, -5px)
+}
+
 body {
   /*background-color: #ffa1bd;*/
-  background: rgb(244,0,199);
-  background: linear-gradient(221deg, rgba(244,0,199,1) 0%, rgba(251,255,3,1) 61%, rgba(0,14,231,1) 100%); 
+  background: rgb(244, 0, 199);
+  background: linear-gradient(221deg, rgba(244, 0, 199, 1) 0%, rgba(251, 255, 3, 1) 61%, rgba(0, 14, 231, 1) 100%);
 }
 
 .navbar {
@@ -19,15 +79,16 @@ body {
   box-shadow: 1px 1px 10px #747474;
 }
 
-.nav-item{
+.nav-item {
   font-size: 15px;
   margin: 20px;
 }
 
-.carousel{
+.carousel {
   margin: 20px;
   border-radius: 20px;
 }
+
 /*.navbar-toggler{
   background-color: black;
 }
@@ -35,22 +96,22 @@ body {
 .navbar-toggler-icon{
   background-color: white;
 }*/
-
 #logo-img {
   background: url('logo.png') no-repeat;
   width: 75px;
   height: 75px;
   margin: 5px 20px 10px 0px;
-  /*border: 10px grey;  
+  /*border: 10px grey;
   /*padding: 3px;*/
 }
 
-.navbar-brand {  
+.navbar-brand {
   /*padding-left: 0;*/
   /*right: 100px;*/
 }
 
-.navbar-brand h1 { /* company name */
+.navbar-brand h1 {
+  /* company name */
   font-family: 'Montserrat', sans-serif;
   color: #000000;
   /*font-size: 2.1em;*/
@@ -61,43 +122,51 @@ body {
   margin: 0;
   margin-top: -20px;
   padding-top: 11px;
-  line-height: .75  ;
+  line-height: .75;
   text-decoration: none;
   text-align: center;
   opacity: 0.8;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
   font-size: 1.06em;
-} 
+}
 
 #nav-list {
   margin-top: 0px;
   margin-bottom: 5px;
 }
+
 #nav-list a {
   color: #000000;
   text-align: center;
 }
+
 #nav-list a:hover {
   /*background: #E7E7E7;*/
 }
+
 #nav-list a span {
   font-size: 1.8em;
 }
 
-.nav-item a{
+.nav-item a {
   color: black;
 }
 
 #phone {
   margin-top: 5px;
 }
-#phone a { /* Phone number */
+
+#phone a {
+  /* Phone number */
   text-align: right;
   padding-bottom: 0;
 }
-#phone div { /* We Deliver */
+
+#phone div {
+  /* We Deliver */
   color: #557c3e;
   text-align: right;
   padding-right: 15px;
@@ -106,16 +175,16 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -40px;
 }
 
-.container .jumbotron .carousel-inner .carousel-item{
+.container .jumbotron .carousel-inner .carousel-item {
   box-shadow: 0 0 40px #3F0C1F;
-    border: 2px solid #3F0C1F;
+  border: 2px solid #3F0C1F;
 }
-
 
 /*Latest updates*/
 /*#latest-updates-title {
@@ -128,18 +197,19 @@ body {
   width: 90%;
   margin: 30px auto 30px;
   border: 1px black;
-
 }
+
 .content .main-content {
   width: 100%;
   border: 1px solid blue;
 }
 
-h2{
+h2 {
   color: black;
   font-family: 'Dela Gothic One', cursive;
 }
-.content .main-content .post{
+
+.content .main-content .post {
   width: 95%;
   height: 270px;
   margin: 10px auto;
@@ -160,7 +230,7 @@ h2{
 
 .text-center {
   text-align: left;
-  font-family: 'Dela Gothic One', cursive; 
+  font-family: 'Dela Gothic One', cursive;
   margin: 20px;
 }
 
@@ -168,12 +238,14 @@ h2{
 .posts section {
   margin-bottom: 20px;
 }
+
 .posts-description {
   color: solid black;
   font-size: 1.1em;
   text-align: justify;
   font-family: Montserrat;
 }
+
 .posts-img {
   border-radius: 5px;
   border: 1px solid black;
@@ -184,73 +256,79 @@ h3 a {
 }
 
 /*Animation*/
-*{
-margin: 0; 
-padding: 0; 
-box-sizing: border-box; 
-} 
-
-.center{ 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.main{ 
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
   height: 70vh;
 }
 
-.social{
+.social {
   font-family: 'Montserrat', sans-serif;
 }
 
-#link{
+#link {
   text-decoration: none;
   color: white;
 }
 
-.box{ 
-  width: 120px; 
-  height: 130px; 
-  position: relative; 
+.box {
+  width: 120px;
+  height: 130px;
+  position: relative;
   margin: 0 20px;
 }
-.icon-box, .inner-box{ 
-  position: absolute; 
-  width: 100%; 
-  height: 100%; 
-  background: #c32aa3; 
-  color: white; 
-  border-radius: 1Opx; 
-  cursor: pointer; 
+
+.icon-box, .inner-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #c32aa3;
+  color: white;
+  border-radius: 1Opx;
+  cursor: pointer;
   transition: all .4s;
 }
 
-.ib-t{
- background: #1dalf2; 
-} 
-.ib-g{
- background: #333; 
-} 
-.ib-w{
- background: #25d366;
-} 
-.box:hover .icon-box{
- transform: translateY(-30px);
-} 
-.inner-box{
+.ib-t {
+  background: #1dalf2;
+}
+
+.ib-g {
+  background: #333;
+}
+
+.ib-w {
+  background: #25d366;
+}
+
+.box:hover .icon-box {
+  transform: translateY(-30px);
+}
+
+.inner-box {
   background: #fffeff;
   align-items: flex-end;
   justify-content: center;
   z-index: -1;
   color: rgb(41, 41, 41);
-  box-shadow: 0 lOpx 20px rgba(0, 0, 0, 0.082); 
-}
-.inner-box p{
-  font-family: 'Berkshire Swash', cursive; 
-  font-size: 1.2rem; 
-  margin-bottom: 5px; 
+  box-shadow: 0 lOpx 20px rgba(0, 0, 0, 0.082);
 }
 
+.inner-box p {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
 
 /*Footer*/
 .panel-footer {
@@ -265,23 +343,26 @@ box-sizing: border-box;
 .panel-footer .row {
   /*margin-bottom: 20px;*/
   height: 160px;
-
 }
 
-.panel-footer .container{
+.panel-footer .container {
   height: 160px;
 }
 
-
 .panel-footer a {
-  color: white; 
+  color: white;
 }
 
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 a:hover, a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #footer-menu {
@@ -293,14 +374,14 @@ a:hover, a:hover {
 
 #footer-menu li {
   margin-right: 45px;
-} 
-
-li {
-    display: list-item;
-    text-align: center;
 }
 
-#cpyright{
+li {
+  display: list-item;
+  text-align: center;
+}
+
+#cpyright {
   width: 100%;
   padding-right: 45px;
 }
@@ -315,9 +396,8 @@ div.text-center {
 }
 
 .panel-footer section hr {
-    width: 50%;
-  }
-
+  width: 50%;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -326,22 +406,21 @@ div.text-center {
     height: 800px;
     margin-top: 15px;
   }
-
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+
   /* Header */
- /* #logo-img {
+  /* #logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
   }*/
   /* End Header */
-
-/*Home Page*/
-.container .jumbotron {
+  /*Home Page*/
+  .container .jumbotron {
     background: url('../images/nasa-992.jpg') no-repeat;
     height: 661px;
     margin-top: 15px;
@@ -357,21 +436,26 @@ div.text-center {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
+
 #release-tile:hover, #news-tile:hover, #offer-tile:hover {
   box-shadow: 0 1px 5px 1px #000000;
 }
+
 #release-tile {
   background: url('../images/tim-250.jpg') no-repeat;
   background-position: center;
 }
+
 #news-tile {
   background: url('../images/alex-250.jpg') no-repeat;
   background-position: center;
 }
+
 #offer-tile {
   background: url('../images/offer-250.jpg') no-repeat;
   background-position: center;
 }
+
 #release-tile span, #news-tile span, #offer-tile span {
   position: absolute;
   bottom: 0;
@@ -386,9 +470,6 @@ div.text-center {
   opacity: .7;
 }
 
-
-
-
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .container .jumbotron {
@@ -396,29 +477,37 @@ div.text-center {
     height: 512px;
     margin-top: 15px;
   }
+
   #offer-tile {
     width: 375px;
     margin: 0 auto 15px;
   }
-  
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
   /* Header */
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 {
+    /* Restaurant name */
     padding-top: 0px;
     margin-top: 0px;
     /*padding-bottom: 10px;*/
-    font-size: 5.1vw;  /*1vw = 1% of viewport width */
+    font-size: 5.1vw;
+    /*1vw = 1% of viewport width */
   }
-  #collapsable-nav a { /* Collapsed nav menu text */
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
-  } 
+  }
+
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
@@ -438,29 +527,30 @@ div.text-center {
   }
 }
 
-  /*FOOTER*/
-  .panel-footer {
-    height: 291px;
-    padding: 10px 20px 0px 20px;
-  }
+/*FOOTER*/
+.panel-footer {
+  height: 291px;
+  padding: 10px 20px 0px 20px;
+}
 
-  .panel-footer section {
-    margin-bottom: 0px;
-    text-align: center;
-  }
+.panel-footer section {
+  margin-bottom: 0px;
+  text-align: center;
+}
 
-  .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
-  }
-  .panel-footer section hr {
-    width: 50%;
-  }
+.panel-footer section:nth-child(3) {
+  margin-bottom: 0;
+  /* margin already exists on the whole row */
+}
+
+.panel-footer section hr {
+  width: 50%;
+}
+
 /*div.navbar-brand {
   clear: both;
   margin-top: -11px;
 }*/
- 
-  
 /*#thank {
   text-align: center;
   font-size: 27px;
@@ -474,7 +564,6 @@ div.text-center {
 footer ul {
   font-size: 17px;
 }*/
-
 /*a:link, a:visited {
   text-decoration: none;
   background-image: linear-gradient(to right, pink , orange, skyblue);
@@ -482,7 +571,7 @@ footer ul {
   border-radius: 25px;
   color: black;
   display: block;
-  padding: 4px; 
+  padding: 4px;
   width: 270px;
   height: 30px;
   text-align: center;
